@@ -1,0 +1,20 @@
+title: Open Salt Lake | A Code for America Brigade
+baseurl: ""
+permalink: /:title/
+timezone: America/Denver
+email: opensaltlake@gmail.com
+twitter_username: OpenSaltLake
+facebook_username: OpenSaltLakeUtah
+meetup_username: Open-Salt-Lake
+slack_invite: osl-slackin
+# analytics:
+#   google:
+#       tracking_id:
+highlighter: rouge
+sass:
+  style: compressed
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false

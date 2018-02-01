@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  jekyll:
+    container_name: open-salt-lake
+    image: 'jekyll/jekyll:3.7'
+    command: 'jekyll serve --watch --livereload'
+    volumes:
+      - './:/srv/jekyll'
+    ports:
+      - '4000:4000'
+      - '35729:35729'

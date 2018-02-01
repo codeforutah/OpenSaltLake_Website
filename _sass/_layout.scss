@@ -1,0 +1,28 @@
+section {
+    &.main {
+        padding-bottom: 4em;
+        margin: 0 4em;
+    }
+}
+.flex {
+    display: flex;
+    &--around {
+        justify-content: space-around;
+    }
+    &--between {
+        justify-content: space-between;
+    }
+    &__row {
+        flex-direction: row;
+    }
+    &--center {
+        justify-content: center;
+    }
+}
+.marginless {
+    margin: 0
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
