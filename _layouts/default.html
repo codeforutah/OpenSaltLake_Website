@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet"/>
+<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+<header>
+  <a href="/">
+    <img class="logo" src="{{ "/images/opensaltlake.png" | prepend: site.baseurl }}" alt="Open Salt Lake logo">
+  </a>
+  <h5>A CODE FOR AMERICA BRIGADE</h5>
+  <div class="nav flex flex--around center">
+    <span><a href="https://www.meetup.com/Open-Salt-Lake/">MEETUP</a></span>
+    <span><a href="https://github.com/OpenSaltLake">PROJECTS</a></span>
+    <span><a href="{{ "/resources" }}">RESOURCES</a></span>
+    <span><a href="{{ "/team" }}">TEAM</a></span>
+  </div>
+</header>
+
+<section class="main">
+  {{ content }}
+</section>
+
+<footer>
+  <div class="social flex flex--around center">
+    <span><a href="https://www.meetup.com/Open-Salt-Lake/"><i class="fab fa-meetup fa-3x"></i></a></span>
+    <span><a href="https://osl-slackin.herokuapp.com/"><i class="fab fa-slack fa-3x"></i></a></span>
+    <span><a href="https://github.com/OpenSaltLake"><i class="fab fa-github fa-3x"></i></a></span>
+    <span><a href="https://www.facebook.com/opensaltlakeutah/?fref=ts"><i class="fab fa-facebook fa-3x"></i></a></span>
+    <span><a href="https://twitter.com/OpenSaltLake"><i class="fab fa-twitter fa-3x"></i></a></span>
+  </div>
+  <div class="flex flex__row flex--center">
+    <div class="contact">
+      <a class="text--medium" href="mailto:{{site.email}}">{{ site.email }}</a>
+      <div>Made with <3 Open Salt Lake</div>
+      <div>Last updated: </div>
+    </div>
+    <div class="cfa_logo">
+      <a href="https://www.codeforamerica.org"><img src="{{ "/images/cfa_logo-e1412475160369.jpg" | prepend: site.baseurl }}" alt="Code for America logo" width="125px"/></a>
+    </div>
+    </div>
+  <img class="beehive" src="{{ "/images/OSL_beehive_gradient.jpg" | prepend: site.baseurl }}" alt="red beehive pattern">
+</footer>
