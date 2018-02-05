@@ -8,7 +8,7 @@
 <div class="team flex flex--around flex--wrap center">
 {% for person in site.data.team.team %}
   <div class="team__member">
-    <img src="{{ person.name | remove: " " }}.jpg" class="team__photo />
+    <img src="{{ person.name | remove: " " }}.jpg" class="team__photo" />
     <span class="team__name">{{ person.name }}</span>
     <span class="team__skills">{{ person.skills }}</span>
     {% if person.about %}
