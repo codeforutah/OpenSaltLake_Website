@@ -2,4 +2,8 @@
   &__member, &__photo {
     max-width: 250px;  
   }
+  &__photo {
+    display: block;
+    border: 1px $black solid;
+  }
 }
