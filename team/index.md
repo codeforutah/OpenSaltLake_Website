@@ -6,7 +6,7 @@
 # The Team
 
 <div class="team flex flex--around center">
-{% for person in site.data.team %}
+{% for person in site.data.team.team %}
   <div class="team__member">
     <span class="team__name">{{ person.name }}</span>
     <span class="team__skills">{{ person.skills }}</span>
