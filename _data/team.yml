@@ -1,0 +1,82 @@
+team:
+    - name: Rachel Stone 
+      skills: CAPTAIN + DATA
+      about: A # govtech geek, Rachel remains consistently impressed with the eager & talented OSL team. She works a data analyst in the Utah Office of Tourism, and likes honesty and cheese.
+      social: 
+        - label: LinkedIn 
+          url: http://www.linkedin.com/in/rachelthecivictechie
+    - name: Ian Harris 
+      skills: UX + DATA
+      about: Civic designer/hacker, UXer at @gooddeedlaw, sculptor, MAKEr and all-around nerd.
+      social: 
+        - label: Twitter  
+          url: https://twitter.com/that_one_ish
+        - label: LinkedIn
+          url: https://www.linkedin.com/in/ian-harris-a113ba149/
+    - name: Steve Gourley 
+      skills: MAPS DEVELOPER
+      social: 
+        - label: Twitter 
+          url: https://twitter.com/steveAGRC
+        - label: Github
+          url: https://github.com/steveoh
+    - name: Keaton Walker 
+      skills: MAPS DEVELOPER
+      social: 
+      - label: Twitter
+        url: https://twitter.com/KeatonWalker1
+      - label: Github
+        url: https://github.com/keatonwalker
+    - name: Jeremiah Roth 
+      skills: SYSTEMS DEVELOPER
+      social: 
+      - label: Twitter
+        url: https://twitter.com/RothWerx
+      - label: Github
+        url: https://github.com/misbach
+    - name: Matt Misbach 
+      skills: FULL STACK WEB DEVELOPER
+      about: A decentralist with a passion for arming the common person with tools to keep big brother in check. Lean Startup Entrepreneur. Juggler. Cryptocurrency enthusiast. Live free or die!
+      social: 
+      - label: Twitter
+        url: https://twitter.com/misbach
+      - label: Github
+        url: https://github.com/misbach
+    - name: Zack Sunderland 
+      skills: FULL STACK ENGINEER
+      about: Professional problem solver, with a specific interest in creating simplified, intuitive, and performant solutions to complex problems. Strong supporter of open data and open source software. Helping to build a brighter future through simple, accessible software powered by open data.
+      social: 
+      - label: Twitter
+        url: https://twitter.com/simplycomplex93
+      - label: Github
+        url: https://github.com/SimplyComplexable
+    - name: Alex Uribe 
+      skills: PROJECT MANAGER
+      about: With a knack for hardware, education, and healthcare, Alex knows enough to be dangerous across design, business, and engineering. 
+      social: 
+      - label: Website
+        url: http://alexuribe.me/
+      - label: Twitter
+        url: https://twitter.com/alexandreuribe
+      - label: Github
+        url: https://github.com/alexuribe
+    - name: Mat White 
+      skills: DATA + INFRASTRUCTURE
+      about: Mat is  a technologist and businessperson who has also studied literature. He loves Open Source software and works for and supports local companies that support their communities.
+      social: 
+      - label: Github
+        url: https://github.com/matwhite
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/mathewwhite/
+    - name: Daniel Wallace 
+      skills: SOFTWARE DEVELOPER
+      about: Daniel  is a software developer at Big Squid.
+      social: 
+      - label: Github
+        url: https://github.com/gtmanfred
+    - name: Nathan Wilkinson 
+      skills: DATA
+      about: Nathan  is a Computer Science student at the University of Utah with a particular fondness for data.utah.gov. His goal is to use tech to saves lives by solving problems in the life sciences.
+      social: 
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/nathanwilk7/
