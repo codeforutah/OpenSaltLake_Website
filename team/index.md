@@ -5,7 +5,7 @@
 
 # The Team
 
-<div class="team flex flex--around center">
+<div class="team flex flex--around flex--wrap center">
 {% for person in site.data.team.team %}
   <div class="team__member">
     <img src="{{ person.name | remove: " " }}.jpg" class="team__photo />
