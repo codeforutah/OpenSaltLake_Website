@@ -21,7 +21,8 @@ team:
         - label: Github
           url: https://github.com/steveoh
     - name: Keaton Walker
-      skills: MAPS DEVELOPER
+      skills: GEOGRAPHIC DATA
+      about: A generalist who enjoys teamwork and sharing ideas to solve problems. Keaton has a particular interest in using data to help governments be more transparent and efficient.
       social:
       - label: Twitter
         url: https://twitter.com/KeatonWalker1
