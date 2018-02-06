@@ -1,9 +1,27 @@
+$margin: 20px;
+$photo--size: 200px;
+
 .team {
   &__member, &__photo {
-    max-width: 250px;  
+    width: $photo--size;
+    height: $photo--size;
+    margin: $margin;
   }
   &__photo {
     display: block;
     border: 1px $black solid;
+    width: $photo--size;
+    height: $photo--size;
+    position: absolute;
+    z-index: -1;
+}
+  &__name {
+      margin: $margin + 1 (-$margin - 1) 0 $margin;
+      background-color: rgba(0, 0, 0, .5);
+      color: #fff;
+  }
+  &__social {
+      margin: 0 (-$margin - 1) (-$margin - 1) $margin + 1;
+      background-color: rgba(255, 255, 255, .75);
   }
 }

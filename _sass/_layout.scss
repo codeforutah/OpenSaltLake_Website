@@ -15,6 +15,9 @@ section {
     &__row {
         flex-direction: row;
     }
+    &__column {
+        flex-direction: column;
+    }
     &--center {
         justify-content: center;
     }
