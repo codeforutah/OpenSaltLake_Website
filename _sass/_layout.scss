@@ -5,23 +5,26 @@ section {
     }
     @include media-query($on-small) {
         &.main {
-            margin: 0 2em;
+            margin: 0 1em;
         }
+    }
+    .action {
+        padding-left: 2em;
     }
 }
 .flex {
     display: flex;
-    &--around {
-        justify-content: space-around;
-    }
-    &--between {
-        justify-content: space-between;
-    }
     &__row {
         flex-direction: row;
     }
     &__column {
         flex-direction: column;
+    }
+    &--around {
+        justify-content: space-around;
+    }
+    &--between {
+        justify-content: space-between;
     }
     &--center {
         justify-content: center;

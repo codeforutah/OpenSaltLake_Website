@@ -1,12 +1,19 @@
-footer {
+.footer {
     padding: 0;
     margin: 0;
 
-    .contact {
+    &__contact {
         padding-right: 1em;
+        @include media-query($on-small) {
+            padding: 0;
+        }
     }
-    .cfa-logo {
+
+    &__cfa-logo {
         padding-left: 1em;
+        @include media-query($on-small) {
+            padding: 1em 0;
+        }
     }
     .beehive {
         margin-left: auto;

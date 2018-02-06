@@ -1,0 +1,9 @@
+.typeform-widget {
+    width: 400px;
+    height: 400px;
+    border: 1px #ccc solid;
+
+    @include media-query($on-small) {
+        width: 100%;
+    }
+}

@@ -7,6 +7,11 @@ $photo--size: 200px;
     height: $photo--size;
     margin: $margin;
   }
+  &__member {
+      @include media-query($on-small) {
+          margin-left: (-$margin);
+      }
+  }
   &__photo {
     display: block;
     border: 1px $black solid;
@@ -19,9 +24,14 @@ $photo--size: 200px;
       margin: $margin + 1 (-$margin - 1) 0 $margin;
       background-color: rgba(0, 0, 0, .5);
       color: #fff;
+      font-weight: 900;
   }
   &__social {
       margin: 0 (-$margin - 1) (-$margin - 1) $margin + 1;
       background-color: rgba(255, 255, 255, .75);
+      font-weight: 900;
+      a {
+          color: $highlight;
+      }
   }
 }

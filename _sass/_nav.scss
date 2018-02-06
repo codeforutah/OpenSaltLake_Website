@@ -1,6 +1,17 @@
 .nav {
     max-width: 60%;
+    text-align: center;
+    justify-content: space-around;
     span {
         padding: 0 .7em;
+
+        @include media-query($on-small) {
+            padding: 0;
+        }
+    }
+
+    @include media-query($on-small) {
+        max-width: 100%;
+        justify-content: space-evenly;
     }
 }

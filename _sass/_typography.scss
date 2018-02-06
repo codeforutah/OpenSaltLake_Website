@@ -23,6 +23,10 @@ h1,h2,h3,h4,h5,h6 {
 h2 {
     margin-bottom: 1em;
     font-size: 2em;
+    @include media-query($on-small) {
+        font-size: 1.3em;
+        margin-bottom: .5em;
+    }
 }
 h3 {
     margin-bottom: .6em;
@@ -39,4 +43,10 @@ h5 {
 h6 {
     margin-bottom: .1em;
     font-size: 1.2em;
+}
+h1 {
+    @include media-query($on-small) {
+        font-size: 1.56em;
+        margin-bottom: 0;
+    }
 }
