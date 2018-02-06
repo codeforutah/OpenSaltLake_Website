@@ -7,16 +7,14 @@
 
 <div class="team flex flex--around flex--wrap center">
 {% for person in site.data.team.team %}
-  <div class="team__member">
-    <img src="photos/{{ person.name | remove: " " }}.png" class="team__photo" />
-    <span class="team__name">{{ person.name }}</span>
-    <span class="team__skills">{{ person.skills }}</span>
+  <div class="team__member flex flex__column flex--between">
     {% if person.about %}
-    <p class="team__about">
-        {{ person.about }}
-    </p>
+    <img src="photos/{{ person.name | remove: " " }}.png" class="team__photo" alt="{{ person.about }}" />
+    {% else %}
+    <img src="photos/{{ person.name | remove: " " }}.png" class="team__photo" />
     {% endif %}
-    <div class="flex flex--around center">
+    <div class="team__name">{{ person.name }}</div>
+    <div class="team__social flex flex--around center">
     {% for social in person.social %}
       <a href="{{ social.url }}">{{ social.label }}</a>
     {% endfor %}
