@@ -3,6 +3,11 @@ section {
         padding-bottom: 4em;
         margin: 0 4em;
     }
+    @include media-query($on-small) {
+        &.main {
+            margin: 0 2em;
+        }
+    }
 }
 .flex {
     display: flex;

@@ -21,3 +21,9 @@ a:hover {
     display: inline;
     padding-bottom: 2px;
 }
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
