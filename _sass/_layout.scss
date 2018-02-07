@@ -1,12 +1,9 @@
 section {
-    &.main {
-        padding-bottom: 4em;
-        margin: 0 4em;
-    }
+    padding-bottom: 4em;
+    margin: 0 4em;
+
     @include media-query($on-small) {
-        &.main {
-            margin: 0 1em;
-        }
+        margin: 0 1em;
     }
     .action {
         padding-left: 2em;

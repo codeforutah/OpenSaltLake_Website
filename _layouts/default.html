@@ -5,9 +5,9 @@
 <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet"/>
 <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 
-<header>
+<header class="header">
   <a href="/">
-    <img class="logo" src="{{ "/images/opensaltlake.png" | prepend: site.baseurl }}" alt="Open Salt Lake logo">
+    <img class="header__logo" src="{{ "/images/opensaltlake.png" | prepend: site.baseurl }}" alt="Open Salt Lake logo">
   </a>
   <h5>A CODE FOR AMERICA BRIGADE</h5>
   <div class="nav flex center">
@@ -16,11 +16,7 @@
     <span><a href="https://secure.codeforamerica.org/page/contribute/default?source_codes=Brigade-page&brigade=Open%20Salt%20Lake">DONATE</a></span>
   </div>
 </header>
-
-<section class="main">
-  {{ content }}
-</section>
-
+{{ content }}
 <footer class="footer">
   <div class="social flex flex--around flex--wrap center">
     <span><a href="https://www.meetup.com/Open-Salt-Lake/"><i class="fab fa-meetup fa-3x"></i></a></span>
