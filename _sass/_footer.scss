@@ -1,6 +1,10 @@
 .footer {
-    padding: 0;
-    margin: 0;
+    padding: 4em 0 0;
+    background-color: white;
+
+    &__items {
+        align-items: center;
+    }
 
     &__contact {
         padding-right: 1em;
