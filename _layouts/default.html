@@ -31,10 +31,10 @@
     <div class="footer__contact">
       <a class="text--medium" href="mailto:{{site.email}}">{{ site.email }}</a>
       <div>Made with &lt;3 Open Salt Lake</div>
-      <div>Last updated: </div>
+      <div>Last updated: <a href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}">{{ site.github.build_revision | slice: 0, 7 }}</a></div>
     </div>
     <div class="footer__cfa-logo">
-      <a href="https://www.codeforamerica.org" alt="code for america"><img src="{{ "/images/cfa_logo-e1412475160369.jpg" | prepend: site.baseurl }}" alt="Code for America logo" width="125px"/></a>
+      <a href="https://www.codeforamerica.org" alt="code for america"><img src="{{ "/images/logo-colored.png" | prepend: site.baseurl }}" alt="Code for America logo" width="125px"/></a>
     </div>
     </div>
 </footer>
@@ -42,7 +42,7 @@
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:770789,hjsv:6};
+        h._hjSettings={hjid:{{ site.analytics.hotjar.tracking_id }},hjsv:6};
         a=o.getElementsByTagName('head')[0];
         r=o.createElement('script');r.async=1;
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;

@@ -7,9 +7,11 @@ twitter_username: OpenSaltLake
 facebook_username: OpenSaltLakeUtah
 meetup_username: Open-Salt-Lake
 slack_invite: osl-slackin
-# analytics:
-#   google:
-#       tracking_id:
+analytics:
+  hotjar:
+      tracking_id: 770789
+github:
+  repository_url: https://github.com/OpenSaltLake/OpenSaltLake_Website/
 primary--reder: rouge
 sass:
   style: compressed
