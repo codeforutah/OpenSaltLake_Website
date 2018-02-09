@@ -1,13 +1,14 @@
 .header {
-  margin-bottom: 2em;
+  padding-bottom: 2em;
+  background-color: white;
   h5 {
-    color: $highlight;
+    color: $primary--red;
   }
   a {
     border-bottom: 0;
   }
   &__logo {
       padding-top: 10px;
-      max-width: 50%;
+      max-width: 40%;
   }
 }

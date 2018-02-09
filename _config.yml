@@ -10,11 +10,11 @@ slack_invite: osl-slackin
 # analytics:
 #   google:
 #       tracking_id:
-highlighter: rouge
+primary--reder: rouge
 sass:
   style: compressed
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+  syntax_primary--reder: rouge
   hard_wrap: false

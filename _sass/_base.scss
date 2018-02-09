@@ -8,16 +8,20 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     outline: 0;
     -webkit-font-smoothing: antialiased;
 }
+html {
+    background-color: #f7f7f7;
+}
 body {
     font-family: 'Dosis', sans-serif;
     font-size: 1.2em;
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: 1rem;
+    box-shadow: 0 0 0 1px rgba(17,17,17,0.08);
 }
 
 a:hover {
-    border-bottom: solid 2px $highlight;
+    border-bottom: solid 2px $primary--red;
     display: inline;
     padding-bottom: 2px;
 }
