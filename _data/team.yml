@@ -72,7 +72,7 @@ team:
         url: https://www.linkedin.com/in/mathewwhite/
     - name: Daniel Wallace
       skills: SOFTWARE DEVELOPER
-      about: Daniel  is a software developer at Big Squid.
+      about: Daniel is a software developer at Big Squid.
       social:
       - label: Github
         url: https://github.com/gtmanfred
@@ -82,3 +82,13 @@ team:
       social:
       - label: LinkedIn
         url: https://www.linkedin.com/in/nathanwilk7/
+    - name: Veronika Thelen
+      skills: SOFTWARE ENGINEER
+      about: Problem solver and collaborator who likes puzzles and cards.
+      social:
+      - label: Twitter
+        url: https://twitter.com/ver_kat
+      - label: Github
+        url: https://github.com/ver-kat
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/veronika-thelen-91a293/
