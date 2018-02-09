@@ -1,0 +1,50 @@
+.slab {
+    min-height: 600px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+
+    &--no-min-height {
+        min-height: 0;
+    }
+
+    &__container {
+        margin: 0 2rem;
+        width: 100%;
+
+        @include media-query($on-small) {
+            margin: 0 1rem;
+        }
+    }
+
+    &__panel {
+        p {
+            padding: 0 1rem;
+        }
+    }
+
+    .inverted {
+        color: white;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    &:last-of-type {
+        margin-bottom: 2em;
+    }
+
+    &--gray {
+        background-color: $secondary--gray;
+    }
+    &--dark-gray {
+        background-color: $secondary--dark-gray;
+    }
+    &--blue {
+        background-color: $primary--blue;
+    }
+    &--red {
+        background-color: $secondary--medium-red;
+    }
+}

@@ -10,16 +10,20 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 html {
     background-color: #f7f7f7;
+    color: $black;
 }
 body {
     font-family: 'Dosis', sans-serif;
+    line-height: 1.7;
     font-size: 1.2em;
     text-align: center;
     padding: 0;
     margin: 1rem;
     box-shadow: 0 0 0 1px rgba(17,17,17,0.08);
 }
-
+p {
+    margin: 0 0 1.5em;
+}
 a:hover {
     border-bottom: solid 2px $primary--red;
     display: inline;

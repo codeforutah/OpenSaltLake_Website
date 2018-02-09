@@ -1,0 +1,23 @@
+.hex {
+    margin: 1rem;
+
+    &__top {
+        border-bottom: 10px solid $primary--blue;
+        border-left: 17.3px solid transparent;
+        border-right: 17.3px solid transparent;
+    }
+    &__middle {
+        width: 34.59px;
+        height: 18px;
+        background-color: $primary--blue;
+    }
+    &__bottom {
+        border-top: 10px solid $primary--blue;
+        border-left: 17.3px solid transparent;
+        border-right: 17.3px solid transparent;
+    }
+    &__item {
+        align-self: center;
+        margin: 0;
+    }
+}

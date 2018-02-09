@@ -2,11 +2,12 @@ section {
     margin-bottom: 4em;
     background-color: white;
 
-    @include media-query($on-small) {
-        margin: 0 1em;
-    }
     .action {
-        padding-left: 2em;
+        padding-left: 2rem;
+
+        @include media-query($on-small) {
+            padding-left: 0;
+        }
     }
 }
 .flex {
@@ -36,4 +37,10 @@ section {
 .center {
     margin-left: auto;
     margin-right: auto;
+}
+.half-width {
+    width: 50%;
+    @include media-query($on-small) {
+        width: auto;
+    }
 }
