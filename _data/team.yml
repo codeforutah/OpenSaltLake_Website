@@ -14,7 +14,8 @@ team:
         - label: LinkedIn
           url: https://www.linkedin.com/in/ian-harris-a113ba149/
     - name: Steve Gourley
-      skills: SWISS ARMY KNIFE
+      skills: Full stack + spatial
+      about: Steve is an all-around developer who enjoys building useful services.
       social:
         - label: Twitter
           url: https://twitter.com/steveAGRC
@@ -64,7 +65,7 @@ team:
         url: https://github.com/alexuribe
     - name: Mat White
       skills: DATA + INFRASTRUCTURE
-      about: Mat is  a technologist and businessperson who has also studied literature. He loves Open Source software and works for and supports local companies that support their communities.
+      about: Mat is a technologist and businessperson who has also studied literature. He loves Open Source software and works for and supports local companies that support their communities.
       social:
       - label: Github
         url: https://github.com/matwhite
@@ -78,7 +79,7 @@ team:
         url: https://github.com/gtmanfred
     - name: Nathan Wilkinson
       skills: DATA
-      about: Nathan  is a Computer Science student at the University of Utah with a particular fondness for data.utah.gov. His goal is to use tech to saves lives by solving problems in the life sciences.
+      about: Nathan is a Computer Science student at the University of Utah with a particular fondness for data.utah.gov. His goal is to use tech to saves lives by solving problems in the life sciences.
       social:
       - label: LinkedIn
         url: https://www.linkedin.com/in/nathanwilk7/
