@@ -11,6 +11,7 @@ $photo--size: 200px;
     border-radius: 0.25rem;
     text-align: left;
     padding: .5rem;
+    background-color: white;
   }
   &__skill, &__bio {
       font-size: 0.875rem;
@@ -22,7 +23,7 @@ $photo--size: 200px;
   }
   &__photo {
     margin: 0 auto .5rem;
-    border: .15rem rgba($highlight, .7) solid;
+    border: .15rem rgba($primary--red, .7) solid;
     width: $photo--size;
     height: $photo--size;
     border-radius: $photo--size / 2;
@@ -41,7 +42,7 @@ $photo--size: 200px;
       font-weight: 900;
       font-size: 1rem;
       a {
-          color: $highlight;
+          color: $primary--red;
       }
   }
 }

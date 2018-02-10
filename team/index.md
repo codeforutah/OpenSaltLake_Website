@@ -2,7 +2,7 @@
   status: publish
   layout: default
 ---
-
+<section markdown="1">
 # The Team
 
 <div class="team flex flex--around flex--wrap center">
@@ -24,3 +24,4 @@
   </article>
 {% endfor %}
 </div>
+</section>

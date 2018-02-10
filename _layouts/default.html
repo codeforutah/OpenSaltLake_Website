@@ -5,47 +5,44 @@
 <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet"/>
 <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 
-<header>
+<header class="header">
   <a href="/">
-    <img class="logo" src="{{ "/images/opensaltlake.png" | prepend: site.baseurl }}" alt="Open Salt Lake logo">
+    <img class="header__logo" src="{{ "/images/opensaltlake.png" | prepend: site.baseurl }}" alt="Open Salt Lake logo">
   </a>
   <h5>A CODE FOR AMERICA BRIGADE</h5>
   <div class="nav flex center">
-    <span><a href="https://www.meetup.com/Open-Salt-Lake/">MEETUP</a></span>
-    <span><a href="{{ "/team" }}">TEAM</a></span>
-    <span><a href="https://secure.codeforamerica.org/page/contribute/default?source_codes=Brigade-page&brigade=Open%20Salt%20Lake">DONATE</a></span>
+    <span><a href="https://www.meetup.com/Open-Salt-Lake/" alt="meet up page">MEETUP</a></span>
+    <span><a href="{{ "/team" }}" alt="team page">TEAM</a></span>
+    <span><a href="https://secure.codeforamerica.org/page/contribute/default?source_codes=Brigade-page&brigade=Open%20Salt%20Lake" target="_blank" alt="donate to code for america" rel="noopener">DONATE</a></span>
   </div>
 </header>
-
-<section class="main">
-  {{ content }}
+<section>
+{{ content }}
 </section>
-
 <footer class="footer">
   <div class="social flex flex--around flex--wrap center">
-    <span><a href="https://www.meetup.com/Open-Salt-Lake/"><i class="fab fa-meetup fa-3x"></i></a></span>
-    <span><a href="https://osl-slackin.herokuapp.com/"><i class="fab fa-slack fa-3x"></i></a></span>
-    <span><a href="https://github.com/OpenSaltLake"><i class="fab fa-github fa-3x"></i></a></span>
-    <span><a href="https://www.facebook.com/opensaltlakeutah/?fref=ts"><i class="fab fa-facebook fa-3x"></i></a></span>
-    <span><a href="https://twitter.com/OpenSaltLake"><i class="fab fa-twitter fa-3x"></i></a></span>
+    <span><a href="https://www.meetup.com/Open-Salt-Lake/" alt="meetup page"><i class="fab fa-meetup fa-3x" title="Meetup page"></i></a></span>
+    <span><a href="https://osl-slackin.herokuapp.com/" alt="slack invite"><i class="fab fa-slack fa-3x" title="slack invite"></i></a></span>
+    <span><a href="https://github.com/OpenSaltLake" alt="github org"><i class="fab fa-github fa-3x" title="github org"></i></a></span>
+    <span><a href="https://www.facebook.com/opensaltlakeutah/" alt="facebook page"><i class="fab fa-facebook fa-3x" title="facebook page"></i></a></span>
+    <span><a href="https://twitter.com/OpenSaltLake" alt="twitter"><i class="fab fa-twitter fa-3x" title="twitter account"></i></a></span>
   </div>
-  <div class="flex flex__row flex--center flex--wrap">
+  <div class="footer__items flex flex__row flex--center flex--wrap">
     <div class="footer__contact">
       <a class="text--medium" href="mailto:{{site.email}}">{{ site.email }}</a>
       <div>Made with &lt;3 Open Salt Lake</div>
-      <div>Last updated: </div>
+      <div>Last updated: <a href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}">{{ site.github.build_revision | slice: 0, 7 }}</a></div>
     </div>
     <div class="footer__cfa-logo">
-      <a href="https://www.codeforamerica.org"><img src="{{ "/images/cfa_logo-e1412475160369.jpg" | prepend: site.baseurl }}" alt="Code for America logo" width="125px"/></a>
+      <a href="https://www.codeforamerica.org" alt="code for america"><img src="{{ "/images/logo-colored.png" | prepend: site.baseurl }}" alt="Code for America logo" width="125px"/></a>
     </div>
-    </div>
-  <img class="beehive" src="{{ "/images/OSL_beehive_gradient.jpg" | prepend: site.baseurl }}" alt="red beehive pattern">
+  </div>
 </footer>
 <!-- Hotjar Tracking Code for opensaltlake.org -->
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:770789,hjsv:6};
+        h._hjSettings={hjid:{{ site.analytics.hotjar.tracking_id }},hjsv:6};
         a=o.getElementsByTagName('head')[0];
         r=o.createElement('script');r.async=1;
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;

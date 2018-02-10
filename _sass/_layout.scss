@@ -1,15 +1,12 @@
 section {
-    &.main {
-        padding-bottom: 4em;
-        margin: 0 4em;
-    }
-    @include media-query($on-small) {
-        &.main {
-            margin: 0 1em;
-        }
-    }
+    background-color: white;
+
     .action {
-        padding-left: 2em;
+        padding-left: 2rem;
+
+        @include media-query($on-small) {
+            padding-left: 0;
+        }
     }
 }
 .flex {
@@ -33,10 +30,13 @@ section {
         flex-wrap: wrap;
     }
 }
-.marginless {
-    margin: 0
-}
 .center {
     margin-left: auto;
     margin-right: auto;
+}
+.half-width {
+    width: 50%;
+    @include media-query($on-small) {
+        width: auto;
+    }
 }
