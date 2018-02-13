@@ -14,6 +14,7 @@
     <span><a href="https://www.meetup.com/Open-Salt-Lake/" alt="meet up page">MEETUP</a></span>
     <span><a href="{{ "/team" }}" alt="team page">TEAM</a></span>
     <span><a href="https://secure.codeforamerica.org/page/contribute/default?source_codes=Brigade-page&brigade=Open%20Salt%20Lake" target="_blank" alt="donate to code for america" rel="noopener">DONATE</a></span>
+	  <span><a href="#join" alt="form to join below">JOIN</a></span>
   </div>
 </header>
 <section>
@@ -30,8 +31,8 @@
   <div class="footer__items flex flex__row flex--center flex--wrap">
     <div class="footer__contact">
       <a class="text--medium" href="mailto:{{site.email}}">{{ site.email }}</a>
-      <div>Made with &lt;3 Open Salt Lake</div>
-      <div>Last updated: <a href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}">{{ site.github.build_revision | slice: 0, 7 }}</a></div>
+      <div>Built by Open Salt Lake</div>
+      <!--div>Last updated: <a href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}">{{ site.github.build_revision | slice: 0, 7 }}</a></div-->
     </div>
     <div class="footer__cfa-logo">
       <a href="https://www.codeforamerica.org" alt="code for america"><img src="{{ "/images/logo-colored.png" | prepend: site.baseurl }}" alt="Code for America logo" width="125px"/></a>
