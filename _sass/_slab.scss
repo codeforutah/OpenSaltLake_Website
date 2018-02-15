@@ -8,6 +8,17 @@
         min-height: 0;
     }
 
+    &--full-width {
+        width: 100%;
+    }
+    &--three-quarter-width {
+        width: 75%;
+    }
+
+    &__image {
+        padding-bottom: 1rem;
+    }
+
     &__container {
         // margin: 0 2rem;
         // width: 100%;
@@ -15,6 +26,10 @@
         max-width: 1000px;
         width: 100%;
         margin: 0 auto 4em;
+
+        p {
+            padding: 0 1rem;
+        }
 
         @include media-query($on-small) {
             margin: 0 1rem;
