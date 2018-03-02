@@ -55,8 +55,14 @@
     }
     &--dark-gray {
         background-color: $secondary--dark-gray;
+        a {
+            color: $primary--red;
+        }
     }
     &--red {
         background-color: $secondary--medium-red;
+        a {
+            color: $secondary--dark-gray;
+        }
     }
 }
